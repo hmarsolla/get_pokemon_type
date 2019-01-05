@@ -21,7 +21,7 @@ To run with Docker, build the docker image with the following command:
 docker build . -t get_pokemon_type
 ```
 
-Then run the image with the Pokémon name as a parameter:
+Then run the image with the Pokémon name as an argument:
 
 ```bash
 docker run get_pokemon_type <name-of-the-pokemon>
